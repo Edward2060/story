@@ -1,0 +1,128 @@
+/* ==========================================================
+   LOVE STORY v2.0
+   VARIABLES
+========================================================== */
+
+:root {
+
+    /* ======================================================
+       COLORS
+    ====================================================== */
+
+    --color-primary: #ff4d88;
+    --color-primary-dark: #e63e74;
+    --color-secondary: #ffd6e5;
+
+    --color-white: #ffffff;
+    --color-black: #1f1f1f;
+
+    --color-background: #fff7fb;
+    --color-surface: #ffffff;
+
+    --color-text: #333333;
+    --color-text-light: #666666;
+
+    --color-border: #eeeeee;
+
+    --color-success: #4caf50;
+    --color-warning: #ff9800;
+    --color-danger: #f44336;
+
+    /* ======================================================
+       TYPOGRAPHY
+    ====================================================== */
+
+    --font-primary:
+        "Poppins",
+        sans-serif;
+
+    --font-title:
+        "Dancing Script",
+        cursive;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2rem;
+    --font-size-3xl: 3rem;
+    --font-size-4xl: 4rem;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    --line-height: 1.6;
+
+    /* ======================================================
+       SPACING
+    ====================================================== */
+
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.5rem;
+    --space-6: 2rem;
+    --space-7: 3rem;
+    --space-8: 4rem;
+    --space-9: 5rem;
+    --space-10: 6rem;
+
+    /* ======================================================
+       LAYOUT
+    ====================================================== */
+
+    --container-width: 1200px;
+    --container-padding: 1rem;
+
+    --section-padding: 6rem;
+
+    /* ======================================================
+       BORDER
+    ====================================================== */
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-round: 999px;
+
+    /* ======================================================
+       SHADOW
+    ====================================================== */
+
+    --shadow-sm:
+        0 2px 8px rgba(0, 0, 0, 0.08);
+
+    --shadow-md:
+        0 8px 24px rgba(0, 0, 0, 0.12);
+
+    --shadow-lg:
+        0 16px 40px rgba(0, 0, 0, 0.16);
+
+    /* ======================================================
+       TRANSITION
+    ====================================================== */
+
+    --transition-fast: 0.2s ease;
+
+    --transition:
+        0.3s ease;
+
+    --transition-slow:
+        0.5s ease;
+
+    /* ======================================================
+       Z-INDEX
+    ====================================================== */
+
+    --z-header: 100;
+    --z-popup: 1000;
+    --z-tooltip: 1100;
+    --z-loading: 9999;
+
+}

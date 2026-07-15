@@ -1,0 +1,304 @@
+/* ==========================================================
+   LOVE STORY v2.0
+   BASE
+========================================================== */
+
+/* ==========================================================
+   BODY
+========================================================== */
+
+body {
+
+    font-family: var(--font-primary);
+
+    font-size: var(--font-size-md);
+
+    font-weight: var(--font-weight-regular);
+
+    line-height: var(--line-height);
+
+    color: var(--color-text);
+
+    background: var(--color-background);
+
+    overflow-x: hidden;
+
+}
+
+/* ==========================================================
+   CONTAINER
+========================================================== */
+
+.container {
+
+    width: min(
+        100% - 2rem,
+        var(--container-width)
+    );
+
+    margin-inline: auto;
+
+}
+
+/* ==========================================================
+   SECTION
+========================================================== */
+
+.section {
+
+    padding-block: var(--section-padding);
+
+    position: relative;
+
+}
+
+/* ==========================================================
+   HEADINGS
+========================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
+    font-weight: var(--font-weight-bold);
+
+    line-height: 1.2;
+
+    color: var(--color-black);
+
+}
+
+h1 {
+
+    font-size: var(--font-size-4xl);
+
+}
+
+h2 {
+
+    font-size: var(--font-size-3xl);
+
+}
+
+h3 {
+
+    font-size: var(--font-size-2xl);
+
+}
+
+h4 {
+
+    font-size: var(--font-size-xl);
+
+}
+
+h5 {
+
+    font-size: var(--font-size-lg);
+
+}
+
+h6 {
+
+    font-size: var(--font-size-md);
+
+}
+
+/* ==========================================================
+   PARAGRAPH
+========================================================== */
+
+p {
+
+    color: var(--color-text-light);
+
+    margin-top: var(--space-3);
+
+}
+
+/* ==========================================================
+   IMAGE
+========================================================== */
+
+img {
+
+    width: 100%;
+
+    height: auto;
+
+    object-fit: cover;
+
+}
+
+/* ==========================================================
+   SECTION HEADER
+========================================================== */
+
+.section-header {
+
+    max-width: 760px;
+
+    margin-inline: auto;
+
+    margin-bottom: var(--space-8);
+
+    text-align: center;
+
+}
+
+/* ==========================================================
+   SECTION SUBTITLE
+========================================================== */
+
+.section-subtitle {
+
+    display: inline-block;
+
+    color: var(--color-primary);
+
+    font-size: var(--font-size-sm);
+
+    font-weight: var(--font-weight-semibold);
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    margin-bottom: var(--space-3);
+
+}
+
+/* ==========================================================
+   SECTION TITLE
+========================================================== */
+
+.section-title {
+
+    font-family: var(--font-title);
+
+    font-size: clamp(
+        2.5rem,
+        5vw,
+        4rem
+    );
+
+    color: var(--color-primary);
+
+    margin-bottom: var(--space-4);
+
+}
+
+/* ==========================================================
+   SECTION DESCRIPTION
+========================================================== */
+
+.section-description {
+
+    max-width: 650px;
+
+    margin-inline: auto;
+
+    font-size: var(--font-size-lg);
+
+    color: var(--color-text-light);
+
+}
+
+/* ==========================================================
+   SPACING
+========================================================== */
+
+.mt-1 {
+
+    margin-top: var(--space-1);
+
+}
+
+.mt-2 {
+
+    margin-top: var(--space-2);
+
+}
+
+.mt-3 {
+
+    margin-top: var(--space-3);
+
+}
+
+.mt-4 {
+
+    margin-top: var(--space-4);
+
+}
+
+.mt-5 {
+
+    margin-top: var(--space-5);
+
+}
+
+.mb-1 {
+
+    margin-bottom: var(--space-1);
+
+}
+
+.mb-2 {
+
+    margin-bottom: var(--space-2);
+
+}
+
+.mb-3 {
+
+    margin-bottom: var(--space-3);
+
+}
+
+.mb-4 {
+
+    margin-bottom: var(--space-4);
+
+}
+
+.mb-5 {
+
+    margin-bottom: var(--space-5);
+
+}
+
+/* ==========================================================
+   TEXT
+========================================================== */
+
+.text-center {
+
+    text-align: center;
+
+}
+
+.text-left {
+
+    text-align: left;
+
+}
+
+.text-right {
+
+    text-align: right;
+
+}
+
+/* ==========================================================
+   HIDDEN
+========================================================== */
+
+.hidden {
+
+    display: none !important;
+
+}
