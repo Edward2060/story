@@ -13,7 +13,7 @@ export const galleryData = [
         title: "💕",
 
         description:
-            ".",
+            "",
 
         image: "pic/img7.jpg",
 
@@ -23,7 +23,7 @@ export const galleryData = [
 
         category: "travel",
 
-        location: "Hà Nội",
+        location: "",
 
         favorite: true,
 
@@ -46,7 +46,7 @@ export const galleryData = [
         title: "💗",
 
         description:
-            "Một buổi tối thật đáng nhớ với rất nhiều tiếng cười.",
+            "",
 
         image: "pic/img13.jpg",
 
@@ -56,7 +56,7 @@ export const galleryData = [
 
         category: "memory",
 
-        location: "Hồ Gươm",
+        location: "",
 
         favorite: true,
 
@@ -79,17 +79,17 @@ export const galleryData = [
         title: "    💞",
 
         description:
-            "Chuyến đi đầu tiên cùng nhau.",
+            "",
 
-        image: "pic/img12.jpg",
+        image: "pic/img24.jpg",
 
-        thumbnail: "pic/img10.jpg",
+        thumbnail: "pic/img18.jpg",
 
-        date: "2024-04-20",
+        date: "2026-08-10",
 
         category: "love",
 
-        location: "Đà Lạt",
+        location: "",
 
         favorite: true,
 
