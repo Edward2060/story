@@ -5,7 +5,7 @@
    TIMELINE DATA
 ========================================================== */
 
-const timelineData = [
+export const timelineData = [
 
     {
 

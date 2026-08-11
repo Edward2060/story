@@ -19,6 +19,10 @@ const popupTitle = $("#popup-title");
 
 const popupDescription = $("#popup-description");
 
+const popupDate = $("#popup-date");
+
+const popupLocation = $("#popup-location");
+
 const popupClose = $("#popup-close");
 
 /* ==========================================================
@@ -44,6 +48,19 @@ function openPopup(item) {
     popupDescription.textContent =
 
         item.description;
+
+    // Gan ngay + dia diem (neu du lieu co)
+    if (popupDate) {
+
+        popupDate.textContent = item.date ?? "";
+
+    }
+
+    if (popupLocation) {
+
+        popupLocation.textContent = item.location ?? "";
+
+    }
 
     popup.classList.add("active");
 
