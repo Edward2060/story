@@ -5,7 +5,7 @@
    TIMELINE DATA
 ========================================================== */
 
-export const timelineData = [
+const timelineData = [
 
     {
 
@@ -80,7 +80,33 @@ export const timelineData = [
 
         favorite: true
 
+    },
+
+    {
+
+        id: 4,
+
+        date: "2026-08-10",
+
+        title: "Ảnh chụp cả hai",
+
+        description:
+            "Đôi khi những khoảnh khắc đẹp nhất lại đến từ những lần bấm máy bất chợt. Một bức ảnh đơn giản nhưng chứa đựng rất nhiều yêu thương.",
+
+        image: "pic/img17.jpg",
+
+        location: "PHOTO TIME",
+
+        icon: "📸",
+
+        category: "",
+
+        color: "#ff4d88",
+
+        favorite: true
+
     }
+    
     
 
 ];
