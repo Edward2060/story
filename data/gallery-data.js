@@ -52,7 +52,7 @@ export const galleryData = [
 
         thumbnail: "pic/img16.jpg",
 
-        date: "2024-02-14",
+        date: "2025-08-21",
 
         category: "memory",
 
