@@ -30,7 +30,7 @@ export const CONFIG = {
         // Ngày bắt đầu yêu nhau
         // Định dạng: YYYY-MM-DDTHH:mm:ss
 
-        startDate: "2024-12-15T00:00:00"
+        startDate: "2024-12-14T00:00:00"
 
     },
 
